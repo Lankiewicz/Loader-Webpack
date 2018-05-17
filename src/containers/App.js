@@ -30,6 +30,19 @@ class App extends React.Component {
             </div>
         );
     }
+    .TodoApp {
+    background-color: #F5F5F5;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
 }
 
 export default App;
+
